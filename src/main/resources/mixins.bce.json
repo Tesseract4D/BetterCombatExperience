@@ -1,0 +1,14 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "mods.tesseract.bce.mixin",
+  "refmap": "refmap.bce.json",
+  "mixins": [
+    "MixinPlayerControllerMP",
+    "MixinEntityPlayer"
+  ],
+  "client": [
+    "MixinMinecraft"
+  ],
+  "server": [
+  ]
+}
